@@ -1,0 +1,118 @@
+
+body {
+  background-color: #D8EFD3;
+  margin: 0;
+  background-image: url('https://www.cloroxpro.com/wp-content/uploads/2022/06/Groceries-blog.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: center;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(255, 255, 255, 0.5); 
+  backdrop-filter: blur(1px); 
+  z-index: -1;
+}
+
+header {
+  height: 100px;
+}
+
+img {
+  background-color: #095256;
+  height: 50px;
+  position: absolute;
+  top: 12px;
+  left: 20px;
+}
+ 
+.nav ul {
+  background-color: #095256;
+  list-style: none;
+  text-align: right; 
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-bottom: 12px;
+  padding-top: 10px;
+}
+
+.nav li {
+  display: inline-block;
+  background-color: #095256;
+  padding: 20px;
+  margin: 0 10px;
+}
+ 
+.nav a {
+  background-color: #095256;
+  height: 100%;
+}
+
+.nav a:link {
+  color: #F1F8E8; 
+  font-size: 18px;
+  text-decoration: none
+}
+
+.nav a:visited {
+  color: #D8EFD3; 
+}
+
+section {
+  background-color: #D8EFD3;
+  width: 840px;
+  margin: 50px auto 0 auto;
+  padding: 30px;
+}
+
+#quote-offer-container {
+  background-color: #F1F8E8;
+  margin-right: 40px;
+  padding: 30px;
+  border: 4px solid #095256;
+}
+
+#quote-form-container {
+  background-color: #D8EFD3;
+  padding: 20px;
+  margin-top: 30px;
+  height: 200px;
+}
+
+#quote-form {
+  background-color: #F1F8E8;
+  padding: 30px;
+  border-radius: 26px;
+  border: 4px solid #095256;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.form-field {
+  margin-bottom: 15px;
+  text-align: center;
+}
+button {
+  border: none;
+  background-color: #095256;
+  color: white;
+  height: 40px;
+  width:  80px;
+}
+
+.section-box {
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  vertical-align: top;
+  box-sizing: border-box;
+}
